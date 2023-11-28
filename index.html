@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/964ec42939.js" crossorigin="anonymous"></script>
+    <title>Coridors</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+
+        #image-container {
+            position: relative;
+            width: 100%;
+            height: 67vh;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        #image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+
+        #top-center {
+            background-color: rgb(229, 229, 249);
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            color: rgb(232, 213, 213);
+            width: 100%;
+        }
+
+        #logo {
+            margin-top: 10px; 
+        }
+
+        #text-div1, #text-div2, #text-div3 {
+            position: absolute;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            width: 50%; 
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #text-div1 {
+            top: 60%; 
+        }
+
+        #text-div2 {
+            top: 80%; 
+        }
+        #text-div3 {
+            top: 90%; 
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        .footer-section {
+            margin-bottom: 10px;
+        }
+        .footer-section p{
+            font-size: small;
+            margin-bottom: -1px;
+            margin-top: 0.5px;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+
+        .footer-section h5 {
+            display: block;
+            font-size: 0.83em;
+            /* margin-block-start: 1.67em;
+            margin-block-end: 1.67em; */
+            margin-block-start: 1.67em;
+            margin-block-end: 0em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+
+        .footer-section a {
+             font-size: x-small;
+        }
+        .social-icons {
+            margin-top: 0em;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-icons li {
+            margin: 10px;
+        }
+
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+            font-size: 10px;
+        }
+
+        .Copyright{
+            margin-top: 0px;
+            margin-bottom: 2px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <main>
+        <div id="image-container">
+            <img src="/image.jpg" alt="Your Image">
+    
+            <div id="top-center">
+                <div id="logo">Logo</div>
+                
+            </div>
+    
+            <div id="text-div1"><h1>Unlock the Power of Data with Coridors</h1></div>
+            <div id="text-div2"><h2>Get Ready!</h2></div>
+            <div id="text-div3"><h6>We are working on something realy cool!</h6></div>
+        </div>
+    </main>
+    
+
+    <footer>
+        <div class="footer-section">
+            <h5>About Coridors</h5>
+            <p>
+                Coridors is a technology company with a clear vision to make modenrn data cloud effective with affordable and accessible native applications to data users of differnt line of buisineses. Our mission is to enable and unlock productivity. and control for our clients. Our team of experts is dedicated to provide solutions for your business needs.
+            </p>
+        </div>
+
+        <div class="footer-section">
+            <h5>
+                Get in Touch
+            </h5>
+            <a href="mailto:kb@coridors.io">kb@coridors.io</a>
+        </div>
+
+        <div class="footer-section">
+            <ul class="social-icons">
+                <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <p class="Copyright">&copy; 2023 <u>Coridors.inc All Rights Reserved</u></p>
+        </div>
+    </footer>
+
+</body>
+</html>
