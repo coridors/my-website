@@ -30,7 +30,7 @@
         }
 
         #top-center {
-            background-color: rgb(229, 229, 249);
+            /* background-color: rgb(229, 229, 249); */
             position: absolute;
             top: 0;
             left: 50%;
@@ -41,7 +41,19 @@
         }
 
         #logo {
-            margin-top: 10px; 
+            position: relative;
+            width: 100%;
+            height: 40vh;
+            margin: auto;
+            overflow: hidden;
+
+        }
+
+        #logo img{
+            width: 200px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin: 0 auto; /* Center the logo horizontally */
+            
         }
 
         #text-div1, #text-div2, #text-div3 {
@@ -236,7 +248,7 @@
     
             <div id="top-center">
                 <div id="logo">
-                    <!-- <image src="/IMG_0542_removebg.png"/> -->
+                    <image src="/IMG_0542_removebg.png">
                 </div>
                 
             </div>
