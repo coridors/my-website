@@ -54,8 +54,8 @@
 
         #logo img {
             position:relative;
-            width: 15em;
-            height: 15em;
+            width: 12.5em;
+            height: 12.5em;
             margin: 0 auto;
             filter: drop-shadow(2px 2px 6px rgb(254, 255, 255));
             
@@ -157,6 +157,8 @@
             /* font-size: 1.2vw; */
         }
 
+        /*phone screen size*/
+        /*KB: final setting -> do not change*/
         @media only screen and (max-width: 767px) {
             .footer-section {
                 font-size: 11px;
@@ -174,34 +176,27 @@
             }
 
         }
-        @media only screen and (min-width: 768px) and (max-width: 1023px) {
-            /* .footer-section {
-                font-size: 5px;
-                margin-top: auto;
-                margin-bottom: 2em;
-            }
-
-            .footer-section p {
-                font-size: 1.125em;
-                margin-bottom: 2em; 
-                margin-top: 1.25em;
-                margin-left: 18vw;
-                margin-right: 18vw;
-                line-height: 1.4;
-            } */
-        }
-        @media only screen and (min-width: 1024px) and (max-width: 3840px) {
-             body {
-                font-size: 32px;
+        /*laptop screen size*/
+        /*KB: final setting -> do not change*/
+        @media only screen and (min-width: 982px) and (max-width: 1512px) {
+            body {
+                font-size: 16px;
             }
 
             .footer-section {
-                font-size: 13px;
+                font-size: 10px;
                 margin-top: auto;
                 margin-bottom: 2em;
             } 
+
+            #logo img {
+                width: 16em;
+                height: 16em;
         }
-        @media only screen and (min-width: 3840px){
+
+        /*big monitor*/
+        /*KB: not working properly*/
+        @media only screen and (min-width: 1513px) and (max-width: 3839px) {
             body {
                 font-size: 32px;
             }
@@ -210,7 +205,30 @@
                 font-size: 13px;
                 margin-top: auto;
                 margin-bottom: 2em;
+            } 
+
+            #logo img {
+                width: 17em;
+                height: 17em;
+        }
+        
+        /*big monitor full screen*/
+        /*KB: not working properly*/
+        @media only screen and (min-width: 3840px){
+            body {
+                font-size: 36px;
             }
+
+            .footer-section {
+                font-size: 18px;
+                margin-top: auto;
+                margin-bottom: 2em;
+            }
+
+            #logo img {
+                width: 17em;
+                height: 17em;
+        }
 
 
         }
